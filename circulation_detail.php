@@ -1,6 +1,4 @@
 <?php
-
-//added using git desktop
 	session_start();
 
 	require_once '../config/config.inc.php';
@@ -57,7 +55,6 @@
 		   					$strTemplateName = $arrTemplate["strName"];
 		    			}
 		    		}
-//Added on 19-12-2019
 	    			// echo $arrCirculationForm["strName"];  
 	    			$arr['BDI No'] = $arrCirculationForm["strName"]; 
 
@@ -144,7 +141,6 @@
 	    		}
     		}
 
-//Added by CRM Team
     		//-----------------------------------------------
             //--- get the field values
             //-----------------------------------------------	
@@ -279,6 +275,5 @@ function outputCsv($fileName, $assocDataArray)
     }
     ob_flush();
 }
-//END
 			
 ?>
