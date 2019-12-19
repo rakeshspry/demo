@@ -1,4 +1,6 @@
 <?php
+
+// Comment added locally - github.
 	session_start();
 
 	require_once '../config/config.inc.php';
